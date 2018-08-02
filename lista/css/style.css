@@ -1,0 +1,88 @@
+/****  LOGIN E CADASTRO ****/
+
+#caixaPrincipal{
+    height: auto;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid gray;
+
+}
+
+.linha{
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 5px;
+}
+
+
+#btnSalvar{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 90px;
+    height: 30px;
+    border: 0px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#header_login, #footer_login, #header_cadastro, #footer_cadastro{
+    background-color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+#header_login, #header_cadastro{
+    height: 70px;
+    margin-bottom: 25px;
+
+}
+
+#footer_login, #footer_cadastro{
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.caixasTextos{
+    width: 280px;
+    height: 30px;
+    border:0px;
+    border-bottom: 1px solid #000000;
+    margin-left: 50px;
+}
+
+
+#link_cadastro{
+    color:#000000;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+}
+input, textarea{
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding-left: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+     cursor: pointer;
+}

@@ -1,0 +1,96 @@
+{
+  "id": "525fece0-1c72-4294-9aa5-8fcf3af9a545",
+  "name": "Untitled Project",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "54212729-ea7e-48c9-9d63-bbf7682529bf",
+    "name": "Cadastro",
+    "commands": [{
+      "id": "696f27df-f32f-4bbf-b6de-a5997c1e6cf9",
+      "comment": "",
+      "command": "open",
+      "target": "/hugo/",
+      "value": ""
+    }, {
+      "id": "9a20dc3b-e128-4aaa-8916-072a563a7499",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=link_cadastro",
+      "value": "38,9"
+    }, {
+      "id": "965b6e82-d95a-4398-93ef-6900cf37c516",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=nome",
+      "value": "97,17"
+    }, {
+      "id": "07b526b6-ebee-46ea-a47f-42f6b1e8c852",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "value": "teste01"
+    }, {
+      "id": "3b30411d-203f-4941-9a31-fbc6dfed7c17",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "value": "teste01@gmail.com"
+    }, {
+      "id": "33ebd00a-5e95-4163-9c61-12fdeb69f373",
+      "comment": "",
+      "command": "type",
+      "target": "name=senha",
+      "value": "1234"
+    }, {
+      "id": "e6ac2c17-fb66-471a-b897-fbfa1468f78b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSalvar",
+      "value": "59,12"
+    }]
+  }, {
+    "id": "896d1dd9-061e-40fd-9ae7-f67c6889290d",
+    "name": "login",
+    "commands": [{
+      "id": "9fdab405-6c8a-4d91-a75d-49fa649360b6",
+      "comment": "",
+      "command": "open",
+      "target": "/hugo/index.php",
+      "value": ""
+    }, {
+      "id": "e4c89f6b-a140-4b3a-8467-f198245c767e",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "value": "teste01"
+    }, {
+      "id": "1346aba3-406b-4490-891a-e41b8b6a2972",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=senha",
+      "value": "98,23"
+    }, {
+      "id": "1b64574a-419f-4b13-a255-1554c0ff33a4",
+      "comment": "",
+      "command": "type",
+      "target": "name=senha",
+      "value": "1234"
+    }, {
+      "id": "2c704534-cf11-4801-b8a4-68ae35626b6d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=btnSalvar",
+      "value": "45,21"
+    }]
+  }],
+  "suites": [{
+    "id": "0b908815-a21c-4572-896c-85d19e8674d4",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["54212729-ea7e-48c9-9d63-bbf7682529bf"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": [],
+  "version": "1.0"
+}
